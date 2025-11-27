@@ -1,0 +1,60 @@
+header{
+    background-color: rgb(116, 64, 16); width: 100%; height: 100px; position: fixed; top: 0; left: 0; display: flex; align-items: center; z-index: 100;
+}
+.logo{
+     width: 250px; height: 100px; margin-left: 50px; display: flex; justify-content: center;
+}
+.buttons{
+    display: flex; justify-content: center; margin-left: 400px;
+}
+.buttons ul{
+    list-style-type: none; display: flex; gap: 50px;
+}
+.buttons a.button {
+  text-decoration: none; padding: 8px 12px; background-color: #ddd; border-radius: 50px; color: rgb(75, 38, 9);
+}
+body{
+    background-color:  #F8F5E8; margin: 0; padding: 0;
+}
+.content{
+    width: 90%; height: auto; margin: auto; display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;
+}
+.category{
+    text-align: center; margin-top: 200px;
+}
+.kart{
+    width: 450px; height: 550px; border: 1px solid rgb(223, 223, 223); text-align: center; color: rgb(231, 86, 86); font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: aliceblue;
+}
+.eda{
+    width: 80%; height: 300px; padding: 10%;
+}
+.skidka{
+    color: black; font-size: 25px; 
+}
+.category2{
+    text-align: center; margin-top: 100px;
+}
+footer{
+    width: 100%; height: 250px; background-color: rgb(116, 64, 16); margin-top: 100px;
+}
+.footer_block2 ul{
+    list-style-type: none; text-decoration: none;
+}
+.footer_content{
+    display: flex; gap: 100px;
+}
+.footer_block{
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+}
+.footer_block3{
+     display: inline; width: 200px; height: 70px;  margin: auto 0; margin-top: 160px; 
+}
+.footer_block3 ul{
+    list-style-type: none; display: flex; 
+}
+ul a{
+    color: black;
+}
