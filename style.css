@@ -1,0 +1,139 @@
+header{
+    background-color: rgb(116, 64, 16); width: 100%; height: 100px; position: fixed; top: 0; left: 0; display: flex; align-items: center; z-index: 100;
+}
+.logo{
+     width: 250px; height: 100px; margin-left: 50px; display: flex; justify-content: center;
+}
+.buttons{
+    display: flex; justify-content: center; margin-left: 400px;
+}
+.buttons ul{
+    list-style-type: none; display: flex; gap: 50px;
+}
+.buttons a.button {
+  text-decoration: none; padding: 8px 12px; background-color: #ddd; border-radius: 50px; color: rgb(75, 38, 9);
+}
+body{
+    background-color: #F8F5E8; margin: 0; padding: 0;
+}
+.img_block{
+    width: 99.9%; height: 700px; background-image: url(./img/Вид\ сверху\ вкусный\ торт\ _\ Бесплатное\ фото.jpg); background-color: #EAD0D1;
+     background-size: auto; background-repeat: no-repeat; background-position: left bottom;
+    position: relative;
+}
+.text{
+    position: absolute; top: 30%; left: 30%; color: rgb(255, 252, 249); font-size: 5vw; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.caption{
+    position: absolute; top: 50%; left: 25%; right: 25%; color: rgb(255, 252, 249); font-size: 2vw; font-family: "Slabo 27px", serif;
+}
+.box1{
+    width: 60%; height: 450px; margin: auto; margin-top: 100px; display: flex; gap: 10px;
+}
+.box2{
+    width: 40%; height: 450px;
+}
+.box3{
+    width: 60%; height: 450px; background-color: rgb(249, 252, 255); align-content: center; border-radius: 10px; 
+}
+.photo{
+    width: 100%; height: 450px; border-radius: 10px;
+}
+.welcome{
+    font-size: 2vw; font-family: "Caveat", cursive; color: rgb(80, 19, 19); margin-left: 50px; 
+}
+.desc{
+    font-size: 1vw; margin-left: 30px; font-family: "Cormorant", serif; color: #3b2734; line-height: 1.5;
+}
+.special{
+    width: 80%; height: 600px; margin: auto; display: flex; justify-content: center; gap: 50px; 
+}
+.special_box1{
+    width: 30%; height: 600px; background-color: #F5C1C1;
+}
+.special_box2{
+    width: 30%; height: 600px; background-color: #F5C1C1;
+}
+.special_box3{
+    width: 30%; height: 600px; background-color: #F5C1C1;
+} 
+.text2{
+    margin-top: 80px; text-align: center; font-size: 1.5vw;
+}
+.rev{
+     margin-top: 80px; text-align: center; font-size: 1.5vw;
+}
+.circles{
+    border-collapse: collapse; border: none;
+}
+.photorev{
+    width: 200px; height: 200px; border-radius: 100px; padding: 5px;
+}
+.pr{
+    border: none; text-align: center; padding: 2px; width: 350px;
+}
+.star{
+    width: 40px; height: 40px;
+}
+.desert{
+    border-radius: 20px; display: block; margin: 40px auto;
+}
+.opisanie{
+    font-size: 1.3vw; padding: 30px;  font-family: "Alegreya", serif; margin-top: 5px;
+}
+.nazv{
+     font-size: 1.5vw;  font-family: "Alegreya", serif; text-align: center; 
+}
+footer{
+    width: 100%; height: 250px; background-color: rgb(116, 64, 16); 
+}
+.footer_block2 ul{
+    list-style-type: none; text-decoration: none;
+}
+.footer_content{
+    display: flex; gap: 100px;
+}
+.footer_block{
+    margin-left: 50px;
+}
+.slabo-27px-regular {
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat-font {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cormorant-font {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.alegreya-font {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+.footer_block3{
+     display: inline; width: 200px; height: 70px;  margin: auto 0; margin-top: 160px; 
+}
+.footer_block3 ul{
+    list-style-type: none; display: flex; 
+}
+ul a{
+    color: black;
+}
+.ad{
+    width: 700px; height: 300px; border: 1px black solid; margin-left: 20px; margin: auto; margin-top: 80px; background-image: url(./img/Frame\ 8.png);
+}
